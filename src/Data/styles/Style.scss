@@ -153,24 +153,42 @@
         padding-bottom: 15px;
         .span-icon{
             margin: 0 10px;
-            opacity: 0.7;
-            .github,.linkdin,.instagram{
+            opacity: 0.6;
+            .github,.linkdin,.instagram,.twitter,.facebook{
                 font-size: 30px;
+                color: black;
+            }
+            .boy{
+                font-size: 33px;
+                color: #6E4FEB;
+                font-weight: bold;
+            }
+            .boy:hover{
+                cursor: pointer;
+                color: #1DA1F2;
+                transition: 0.5s;
+            }
+            .github:hover{
+                color: black;
             }
             .linkdin:hover{
                 color: #0077B5;
+                transition: 0.4s;
             }
             .instagram:hover{
                 color: orange;
+                transition: 0.4s;
             }
             .facebook,.twitter{
                 font-size: 32px;
             }
             .facebook:hover{
                 color: #4b73e0;
+                transition: 0.4s;
             }
             .twitter:hover{
                 color: #1DA1F2;
+                transition: 0.4s;
             }
         }
         .span-icon:hover{
@@ -188,7 +206,7 @@
     height: fit-content;
     padding: 10px;
     box-sizing: border-box;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(192, 192, 192, 0.1);
         .container-project-card{
                 .project-head{
                     user-select: none;
@@ -211,15 +229,19 @@
                     }
                     .detail-link:hover{
                         cursor: pointer;
+                        color: rgb(80, 80, 80);
+                        transition: 0.6S;
                     }
                     .project-link{
                         user-select: none;
                         text-decoration: none;
-                        color: gray;
+                        color: #6E4FEB;
                         font-weight: 500;
                     }
                     .project-link:hover{
                         cursor: pointer;
+                        color: #2b00d7;
+                        transition: 0.8s;
                     }
                 }
         }
@@ -368,7 +390,7 @@
 // THIS IS EXPRENCES SECTION PAGE
 .exprences-div{
     .container-exprences{
-        background-color: rgb(243, 243, 243);
+        // background-color: rgb(243, 243, 243);
         .icon-computer{
             color: white;
         }
@@ -382,7 +404,8 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    height: 90vh;
+    // height: 90vh;
+    // background-color: red;
     .projects-container{
         box-sizing: border-box;
         gap: 20px;
@@ -392,7 +415,130 @@
     }
 }
 
-@media screen and (max-width:1130px) {
+// THIS IS WELCOME MESSAGE COMPONENT
+.message-model{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    display: flex;
+        .container-message-model{
+            pointer-events: all;
+                width: 450px;
+                height: fit-content;
+                border-radius: 10px;
+                padding:40px;
+                box-sizing: border-box;
+                display: list-item;
+                list-style: none;
+                background-color: rgba(250,250,250,0.5);
+                backdrop-filter: blur(5px);
+                box-shadow: 1px 1px 10px 1px rgba(153, 153, 153,0.5);
+                text-align: left;
+                .message-model-text{
+                    font-size: 20px;
+                    letter-spacing: 3px;
+                    line-height: 35px;
+                    user-select: none;
+                    font-weight: 500;
+                }
+                .footer-btns-div{
+                    text-align: right;
+                    .ok-btn{
+                        background-color: rgba(2, 151, 2,0.5);
+                        padding: 10px 15px;
+                        border: none;
+                        font-size: 20px;
+                        border-radius: 5px;
+                        color: white;
+                    }
+                    .ok-btn:hover{
+                        cursor: pointer;
+                        background-color: rgba(2, 151, 2,0.7);
+                        transition: 0.7s;
+                    }
+                }
+        }
+}
+
+// THIS IS ABOUT ME SECTION MODEL WINDOW CSS
+.aboutme-div{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    // background-color: rgba(250,250,250,0.5);
+    // backdrop-filter: blur(2px);
+    .container-about-me{
+        width: 75%;
+        height: fit-content;
+        background-color: rgba(250,250,250,0.7);
+        backdrop-filter: blur(7px);
+        display: list-item;
+        text-align: left;
+        border-radius: 15px;
+        position: relative;
+        list-style: none;
+        box-shadow: 1px 1px 10px 1px rgb(110, 110, 110);
+        padding: 30px;
+        box-sizing: border-box;
+        .close-bt{
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            // z-index: 1000;
+            // top: 17%;
+            // right: 11%;
+            .close-model-bt{
+                font-size: 20px;
+                padding: 10px 15px;
+                border: none;
+                box-shadow: 1px 1px 10px 1px rgba(0, 0, 0,0.5);
+                border-radius: 50%;
+                background-color: white;
+            }
+            .close-model-bt:hover{
+                cursor: pointer;
+            }
+        }
+                .heading-div{
+                    .heading-text{
+                            color: #6E4FEB;
+                            font-size: 40px;
+                            letter-spacing: 7px;
+                            word-spacing: 3px;
+                    }
+                }
+                .info-div{
+                    margin-top: 20px;
+                    .my-name{
+                        font-size: 20px;
+                        letter-spacing: 2px;
+                        line-height: 38px;
+                        .extra{
+                            margin-left: 15px;
+                        }
+                    }
+                    .my-thoughts{
+                        margin: 15px 0;
+                        font-size: 20px;
+                        letter-spacing: 2px;
+                        line-height: 35px;
+                    }
+                }
+        }
+}
+
+
+@media screen and (max-width:1130px){
     .footer-div{
         position: relative;
     }
@@ -409,7 +555,7 @@
                             margin: 0;
                         }
                         .resume-link{
-                            margin-left: 0;
+                            margin: 0;
                         }
                     }
                 }
@@ -425,7 +571,6 @@
         }
     }
 }
-
 @media screen and (max-width:820px) {
     .header-div{
         padding: 0;
@@ -503,7 +648,6 @@
         position:relative;
     }
 }
-
 @media screen and (max-width:500px) {
     .home-div{
         .container-home{
@@ -524,8 +668,8 @@
         }
     }
 }
-
 @media screen and (max-width:880px) {
+
     .project-page-div{
         height: 100%;
         padding: 20px;
@@ -546,8 +690,14 @@
             }
         }
     }
+    .project-page-div{
+        height: fit-content;
+        margin: 0;
+        .container-project-page{
+            height: 100%;
+        }
+    }
 }
-
 @media screen and (max-width:520px) {
     .project-page-div{
         // padding: 20px;
@@ -588,3 +738,56 @@
         }
     }
 }
+@media screen and (max-width:560px) {
+    
+    .aboutme-div{
+        
+        .container-about-me{
+            // height: fit-content;
+            padding: 15px;
+            overflow: scroll;
+            overflow-x: hidden;
+            backdrop-filter: blur(5px);
+                .heading-div{
+                    .heading-text{
+                        color: gray;
+                    }
+                }
+                .info-div{
+                    .my-name{
+                        font-size: 15px;
+                        .extra{
+                            margin: 0;
+                        }
+                    }
+                    .my-thoughts{
+                        font-size: 15px;
+
+                    }
+                }
+        }   
+    }  
+}
+@media screen and (max-width:560px) {
+   
+    .message-model{
+        .container-message-model{
+            width: 80%;
+        }
+    }
+}
+ @media screen and(max-width:430px) {
+    .message-model{
+        .container-message-model{
+            padding: 15px 25px;
+            .message-model-text{
+                font-size: 15px;
+            }
+            .footer-btns-div{
+                .ok-btn{
+                    padding: 5px 10px;
+                }
+            }
+        }
+    }
+ }

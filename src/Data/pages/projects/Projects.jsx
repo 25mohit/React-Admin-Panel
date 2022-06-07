@@ -7,7 +7,7 @@ export const Projects = () => {
         <div className="projects-div">
             <div className="projects-container">
                     {
-                        projectList.map((project, idx) => <ProjectCard id ={ idx } 
+                        projectList.map((project, idx) => <ProjectCard id ={ idx } key={ idx }
                         title = {project.title} 
                         img ={project.image}
                         link={ project.pLink}
