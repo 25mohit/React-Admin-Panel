@@ -32,10 +32,42 @@ import admTwo from '../images/ScreenShots/admin-panel/2.png'
 import admThree from '../images/ScreenShots/admin-panel/3.png'
 import admFour from '../images/ScreenShots/admin-panel/4.png'
 
+import sho from '../images/ScreenShots/shop-list-filter/1.png'
+import shoTwo from '../images/ScreenShots/shop-list-filter/2.png'
+import shoThree from '../images/ScreenShots/shop-list-filter/3.png'
+import shoFour from '../images/ScreenShots/shop-list-filter/4.png'
+
+import wOne from '../images/ScreenShots/weather-app/1.jpg'
+import wTwo from '../images/ScreenShots/weather-app/2.jpg'
+import wThree from '../images/ScreenShots/weather-app/3.jpg'
+import wFour from '../images/ScreenShots/weather-app/4.jpg'
+
 
 export const projectList = [
     {
-        title: 'ERP Manager',
+        title: 'Live Weather Update',
+        image: wOne,
+        image1: wTwo,
+        image2: wThree,
+        image3: wFour,
+        pLink:"https://live-weather-info.herokuapp.com/",
+        gLink:"https://github.com/25mohit/ReactJS-WeatherApp",
+        detail: "Get Live & latest Weather Updates of 2,00,000 + cities from world-wide. Get very detailed data like: Humidity, Wind Speed & Direction, Sunrise- Sunset Time, Current Date & Time, High- Low Tempratures and many more.",
+        detail2: "This App is using a Free 'Weather Data Update' API, and this is a full responsive App."
+    }, 
+    {
+        title: 'Create Shop Lists with Filters',
+        image: sho,
+        image1: shoTwo,
+        image2: shoThree,
+        image3: shoFour,
+        pLink:"https://shop-list-erp.herokuapp.com/",
+        gLink:"https://github.com/25mohit/Shop-Manager",
+        detail: "You can add Shop lists by Entering a shop Name, and select your shops Category and Area, from the dropdown options. After that you can delete your shop, also you can edit your shop details. ",
+        detail2: "This App is created using ReactJS and for complete state management i used Redux JavaScript Library."
+    }, 
+    {
+        title: 'ERP Employees Manager',
         image: pOne,
         image1: pTwo,
         image2: pThree,
@@ -43,7 +75,7 @@ export const projectList = [
                pLink:"https://erp-employees-manager.herokuapp.com/",
         gLink:"https://github.com/25mohit/ERP-Employee-Manager",
         detail: "Companies can have track of all employees list, and detailed data of each employee.",
-        detail2: "Users can add their employees, and add many details like salary and personal details,"
+        detail2: "Users can add their employees, and add many details like salary and personal details."
     }, 
     {
         title: 'Password Encrypter',
@@ -54,7 +86,7 @@ export const projectList = [
                pLink:"https://online-encrypter.herokuapp.com/",
         gLink:"https://github.com/25mohit/Password-Encrypter",
         detail: "Here you can Encrypt your any kind of valuable text data, that no one can understand, and then you can Decrypt that Encrypted Text data.",
-        detail2: "Easy to use, Completly FREE for use, for anyone."
+        detail2: "Easy to use, Completely FREE for use, for anyone."
     },
     {
         title: 'React Admin Panel',
@@ -63,7 +95,7 @@ export const projectList = [
         image2: admThree,
         image3: admFour,
         pLink:"https://admin-panel-reactjs.herokuapp.com/",
-        gLink:"https://github.com/25mohit/ERP-Wages-Manager",
+        gLink:"https://github.com/25mohit/React-Admin-Panel",
         detail: "This is a ReactJS Admin Panel Static Template with full responsiveness. In side bar there is a custom scroll bar, when you expand every list, you see it.",
         detail2: "Beafutifull, Simple, Static, Responsive Single page Application."
     }, 
@@ -73,7 +105,6 @@ export const projectList = [
         image1: erpTwo,
         image2: erpThree,
         image3: erpFour,
-        
         pLink:"https://erp-wages-manger.herokuapp.com",
         gLink:"https://github.com/25mohit/ERP-Wages-Manager",
         detail: "Users can register and login and can fill up their profile, like salary, and designation, and provide daily wages. After that they can add and delete their daily wages and get track of their monthly expenses.",
@@ -110,5 +141,5 @@ export const projectList = [
         gLink:"https://github.com/25mohit/Instagram-clone",
         detail: "In this project users can register and login by creating a new user id.",
         detail2: "Actual Instagram website clone."
-    },
+    }
 ]

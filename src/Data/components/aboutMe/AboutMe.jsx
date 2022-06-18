@@ -1,9 +1,23 @@
 import React from 'react'
+import { useEffect } from 'react'
 
 export const AboutMe = ({setShowAboutMe}) => {
   const closeModel = () => {
    setShowAboutMe(false)
   }
+
+  useEffect(() => {
+    document.addEventListener('keydown', handleKeyPress)
+    return() => {
+      document.removeEventListener('keydown', handleKeyPress)
+    }
+  },[]) 
+  const handleKeyPress = (e) => {
+    if(e.keyCode == 27){
+      setShowAboutMe(false)
+    }
+  }
+
   return (
     <div className='aboutme-div'>
             <div className="container-about-me">
