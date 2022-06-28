@@ -5,7 +5,7 @@ import { BsInstagram } from 'react-icons/bs'
 import { FaFacebookSquare } from 'react-icons/fa'
 import { FaTwitter } from 'react-icons/fa'
 import { CgBoy } from 'react-icons/cg'
-// import codementor from '../../images/icons/codementor.png'
+import { AiOutlineCodepenCircle } from 'react-icons/ai'
 import { AboutMe } from '../aboutMe/AboutMe'
 
 export const Footer = () => {
@@ -16,9 +16,10 @@ export const Footer = () => {
             <div className="container-footer">
                 <span className='span-icon'><a href='https://github.com/25mohit' target="_blank"><BsGithub className='github'/></a> </span>
                 <span className='span-icon'><a href='https://www.linkedin.com/in/agarwal24/' target="_blank"><BsLinkedin className='linkdin'/></a> </span>
+                <span className='span-icon'><a href='https://codepen.io/mohit24' target="_blank"><AiOutlineCodepenCircle className='codepen'/></a> </span> 
+                <span className='span-icon'><a href='https://twitter.com/mo_hit24' target="_blank"><FaTwitter className='twitter'/></a> </span> 
                 <span className='span-icon'><a href='https://www.instagram.com/im_hit_/' target="_blank"><BsInstagram className='instagram'/></a> </span>
                 <span className='span-icon'> <a href='https://www.facebook.com/mohit724agarwal' target="_blank"><FaFacebookSquare className='facebook'/></a> </span>
-                <span className='span-icon'><a href='https://twitter.com/mo_hit24' target="_blank"><FaTwitter className='twitter'/></a> </span> 
                 {/* <span className='span-icon'><a href='https://www.codementor.io/@24mohit' target="_blank">
                     <img src={ codementor } alt="" className='logo-img'/>
                   </a> </span>  */}

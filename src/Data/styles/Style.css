@@ -5,6 +5,9 @@
 
 .header-div {
   padding: 20px 0;
+  background-color: rgba(250, 250, 250, 0.7);
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
 }
 
 .header-div .dropdown-bt {
@@ -154,7 +157,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -180,6 +183,11 @@
 
 .footer-div .container-footer .span-icon .github, .footer-div .container-footer .span-icon .linkdin, .footer-div .container-footer .span-icon .instagram, .footer-div .container-footer .span-icon .twitter, .footer-div .container-footer .span-icon .facebook {
   font-size: 30px;
+  color: black;
+}
+
+.footer-div .container-footer .span-icon .codepen {
+  font-size: 32px;
   color: black;
 }
 
@@ -503,7 +511,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -513,6 +520,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   gap: 25px;
+  width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -521,6 +529,16 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.projects-div .projects-container .total-projects {
+  color: gray;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-size: 17px;
+  cursor: pointer;
 }
 
 .projects-div .projects-container .paginationButtons {
@@ -761,7 +779,7 @@
   }
   .header-div #open .portfolio-links {
     background-color: white;
-    z-index: 1000;
+    z-index: 2000;
     display: block;
     width: 100%;
     position: fixed;

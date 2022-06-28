@@ -42,8 +42,24 @@ import wTwo from '../images/ScreenShots/weather-app/2.jpg'
 import wThree from '../images/ScreenShots/weather-app/3.jpg'
 import wFour from '../images/ScreenShots/weather-app/4.jpg'
 
+import gOne from '../images/ScreenShots/random-game/1.png'
+import gTwo from '../images/ScreenShots/random-game/2.png'
+import gThree from '../images/ScreenShots/random-game/3.png'
+import gFour from '../images/ScreenShots/random-game/4.png'
+
 
 export const projectList = [
+    {
+        title: 'Random No Guess Game',
+        image: gOne,
+        image1: gTwo,
+        image2: gThree,
+        image3: gFour,
+        pLink:"https://random-number-guess.herokuapp.com/",
+        gLink:"https://github.com/25mohit/",
+        detail: "Play 'Guess Random No' Game with amazing features and also with amazing sounds, also with Toast Notifications on different steps.",
+        detail2: " You can enter your Name, age also your Highest Guessable No for more FUN !! PLAY NOW !!"
+    }, 
     {
         title: 'Live Weather Update',
         image: wOne,
@@ -52,7 +68,7 @@ export const projectList = [
         image3: wFour,
         pLink:"https://live-weather-info.herokuapp.com/",
         gLink:"https://github.com/25mohit/ReactJS-WeatherApp",
-        detail: "Get Live & latest Weather Updates of 2,00,000 + cities from world-wide. Get very detailed data like: Humidity, Wind Speed & Direction, Sunrise- Sunset Time, Current Date & Time, High- Low Tempratures and many more.",
+        detail: "Get Live & latest Weather Updates of 2,00,000 + cities from world-wide. Get very detailed data like: Humidity, Wind Speed & Direction, Sunrise- Sunset Time, Current Date & Time, High- Low Temperatures and many more.",
         detail2: "This App is using a Free 'Weather Data Update' API, and this is a full responsive App."
     }, 
     {
@@ -118,7 +134,7 @@ export const projectList = [
                 pLink:"https://mytodo22.herokuapp.com/",
         gLink:"https://github.com/25mohit/TodoApp",
         detail: "Users can add their daily to-do tasks, and complete and delete tasks.",
-        detail2: "Easy to use, Completly FREE for use for anyone."
+        detail2: "Easy to use, Completely FREE for use for anyone."
     }, 
     {
         title: 'Twitter Clone',

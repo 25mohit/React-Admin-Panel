@@ -25,6 +25,7 @@ export const Projects = () => {
     return(
         <div className="projects-div">
             <div className="projects-container">
+                 <p className="total-projects"><strong>{projectList.length}</strong> Projects</p>
                 <ReactPaginate
                   previousLabel={"Previous"}
                   nextLabel={"Next"}
