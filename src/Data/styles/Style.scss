@@ -149,7 +149,7 @@
 .footer-div{
     display: flex;
     position: fixed;
-    bottom: 0;
+    bottom: -10px;
     justify-content: center;
     width: 100%;
     align-items: center;
@@ -308,18 +308,19 @@
                         }
                         ul{
                             .project-details{
-                                font-size: 20px;
+                                font-size: 17px;
                                 margin: 25px;
-                                line-height: 33px;
+                                line-height: 30px;
                                 color: rgb(70, 70, 70);
                             }
                         }
                         .extra-details{
-                            letter-spacing: 2px;
+                            font-size: 15px;
+                            letter-spacing: 1px;
                             line-height: 30px;
                             color: rgb(88, 88, 88);
                             word-spacing: 2px;
-                            margin-bottom: 20px;
+                            // margin-bottom: 10px;
                             .extra{
                                 font-weight: 500;
                                 margin-right:15px;
@@ -327,7 +328,7 @@
                         }
                         .link-project-live{
                             letter-spacing: 2px;
-                            margin-top: 30px;
+                            margin-top: 10px;
                             span{
                                 margin: 0 10px;
                             }
@@ -415,12 +416,10 @@
     padding: 10px 0;
     justify-content: center;
     align-items: center;
-    // height: 80vh;
     display: flex;
     .projects-container{
-        // background-color: orange;
         box-sizing: border-box;
-        gap: 25px;
+        gap: 15px;
         width: 100%;
         justify-content: center;
         display: flex;

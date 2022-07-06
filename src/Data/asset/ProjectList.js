@@ -47,6 +47,10 @@ import gTwo from '../images/ScreenShots/random-game/2.png'
 import gThree from '../images/ScreenShots/random-game/3.png'
 import gFour from '../images/ScreenShots/random-game/4.png'
 
+import sOne from '../images/ScreenShots/shopping/1.png'
+import sTwo from '../images/ScreenShots/shopping/2.png'
+import sThree from '../images/ScreenShots/shopping/3.png'
+import sFour from '../images/ScreenShots/shopping/4.png'
 
 export const projectList = [
     {
@@ -59,6 +63,17 @@ export const projectList = [
         gLink:"https://github.com/25mohit/",
         detail: "Play 'Guess Random No' Game with amazing features and also with amazing sounds, also with Toast Notifications on different steps.",
         detail2: " You can enter your Name, age also your Highest Guessable No for more FUN !! PLAY NOW !!"
+    }, 
+    {
+        title: 'Shopping Website',
+        image: sOne,
+        image1: sTwo,
+        image2: sThree,
+        image3: sFour,
+        pLink:"https://my-shopping-project.netlify.app/",
+        gLink:"https://github.com/25mohit/my-shopping",
+        detail: "This is a ReactJS full functionable website project delevoped in ReactJS with use of REDUX for all State-Managment functionality.",
+        detail2: " You can Registered and Login, Sell your item, update your Seller Profile, dedicated section for all your listed items, from where you can edit or delete items based on your choice, after deleting item it went to a 'DELETED' section from where you can see all your deleted items."
     }, 
     {
         title: 'Live Weather Update',

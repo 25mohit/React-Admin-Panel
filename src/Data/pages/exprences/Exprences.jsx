@@ -2,25 +2,12 @@ import React, { useState } from 'react'
 import { VerticalTimelineElement, VerticalTimeline} from "react-vertical-timeline-component"
 import "react-vertical-timeline-component/style.min.css"
 import {HiOutlineDesktopComputer} from 'react-icons/hi'
-import axios from 'axios'
-import { useEffect } from 'react'
 
 export const Exprences = () => {
-    const [visitor, setVisitor] = useState(0)
-
-               axios.get('https://api.countapi.xyz/update/agarwal-portfolio.herokuapp.com/youtube/?amount=1')
-               .then(function(data) { 
-                   setVisitor(data.data.value);
-               })
-               .catch(function(err){
-                   console.log(err);
-               })
-    
 
     return(
         <div className="exprences-div">
                 <div className="container-exprences">
-                    {visitor}
                     <VerticalTimeline lineColor='#6E4FEB'>
                             <VerticalTimelineElement id='hjhjkhkjh'
                             className='vertical-timeline-element--education' 
