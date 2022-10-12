@@ -9,6 +9,7 @@ export const ProjectPage = () => {
     const [imageModel2, setImageModel2] = useState(false)
     const [imageModel3, setImageModel3] = useState(false)
     const {id } = useParams()
+    
     const projectLists = projectList[id]
   return (
     <div className='project-page-div'>
