@@ -59,7 +59,7 @@ export const projectList = [
         image1: gTwo,
         image2: gThree,
         image3: gFour,
-        pLink:"https://random-number-guess.herokuapp.com/",
+        pLink:"https://random-number-guess.vercel.app/",
         gLink:"https://github.com/25mohit/",
         detail: "Play 'Guess Random No' Game with amazing features and also with amazing sounds, also with Toast Notifications on different steps.",
         detail2: " You can enter your Name, age also your Highest Guessable No for more FUN !! PLAY NOW !!"
@@ -81,7 +81,7 @@ export const projectList = [
         image1: wTwo,
         image2: wThree,
         image3: wFour,
-        pLink:"https://live-weather-info.herokuapp.com/",
+        pLink:"https://live-weather-info.netlify.app/",
         gLink:"https://github.com/25mohit/ReactJS-WeatherApp",
         detail: "Get Live & latest Weather Updates of 2,00,000 + cities from world-wide. Get very detailed data like: Humidity, Wind Speed & Direction, Sunrise- Sunset Time, Current Date & Time, High- Low Temperatures and many more.",
         detail2: "This App is using a Free 'Weather Data Update' API, and this is a full responsive App."
@@ -114,7 +114,7 @@ export const projectList = [
         image1: encrTwo,
         image2: encrThree,
         image3: encrFour,
-               pLink:"https://online-encrypter.herokuapp.com/",
+        pLink:"https://password-encrypter.netlify.app/",
         gLink:"https://github.com/25mohit/Password-Encrypter",
         detail: "Here you can Encrypt your any kind of valuable text data, that no one can understand, and then you can Decrypt that Encrypted Text data.",
         detail2: "Easy to use, Completely FREE for use, for anyone."
@@ -146,7 +146,7 @@ export const projectList = [
         image: todoOne,
         image1: todoTwo,
         image2: todoThree,
-                pLink:"https://mytodo22.herokuapp.com/",
+        pLink:"https://mytodo22.herokuapp.com/",
         gLink:"https://github.com/25mohit/TodoApp",
         detail: "Users can add their daily to-do tasks, and complete and delete tasks.",
         detail2: "Easy to use, Completely FREE for use for anyone."
@@ -157,7 +157,7 @@ export const projectList = [
         image1: twiTwo,
         image2: twiThree,
         image3: twiFour,
-                pLink:"https://twitter-clone-2022.herokuapp.com/",
+        pLink:"https://twitter-clone-2022.herokuapp.com/",
         gLink:"https://github.com/25mohit/Twitter-Clone-in-ReactJS",
         detail: "You can register and login, create and delete tweets, see and delete other celebrities tweets, update your profile, like bio, etc",
         detail2: "Actual TWEETER site clone, Easy to use, Completly FREE for use for anyone."
